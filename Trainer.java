@@ -6,6 +6,8 @@ import java.util.ArrayList;
 public class Trainer{
     //variables for generic trainers:
     int _moneys;
+    int _badges;
+    int _pokemon;
     String _name;
     ArrayList<String> _pokemons;
 
