@@ -11,6 +11,7 @@ public abstract class Pokemon {
     int _spD;
     int _spd;
     int _maxHP;
+    String _type;
     String _name;
     boolean _isFainted;
 
