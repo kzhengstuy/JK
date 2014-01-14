@@ -12,6 +12,8 @@ public abstract class Pokemon {
     int _spd;
     int _maxHP;
     String _name;
+    boolean _isFainted;
+
 
     ArrayList<String> moves = new ArrayList<String>();
 
@@ -25,7 +27,7 @@ public abstract class Pokemon {
 	_spD = _level + 10;
 	_spd = _level + 10;
 	_maxHP = _hp;
-
+	_isFainted = false;
     }
 
 
