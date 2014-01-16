@@ -1,18 +1,18 @@
-public class Bulbasaur extends Pokemon {
+public class Ekans extends Pokemon {
     
 
 
-    public Bulbasaur(){
+    public Ekans(){
 
-        super("Bulbasaur");
-        _type = "Grass/Poison";
+        super("Ekans");
+        _type = "Poison";
 
     }
 
     
     
     public static void main(String[] args) {
-        Bulbasaur pkn = new Bulbasaur();
+        Ekans pkn = new Ekans();
         System.out.println(pkn._level);
         
     }
