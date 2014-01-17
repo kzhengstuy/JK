@@ -31,9 +31,17 @@ public abstract class Pokemon {
 	_isFainted = false;
     }
 
+    public String toString(){
+	String retStr = " ";
+	retStr += "Name:" + _name + "\n";
+	retStr += "HP:" + _hp + "\n";
+	retStr += "Attack:" + _atk + "\n";
+	retStr += "Defense:" + _def + "\n";
+	retStr += "Special Attack:" + _spA + "\n";
+	retStr += "Special Defense:" + _spD + "\n";
+        retStr += "Speed:" + _spd + "\n";
+	return retStr;
+	
+    }
 
-    
-    	
-    
-    
-}
+   
