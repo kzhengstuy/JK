@@ -13,7 +13,7 @@ public class Bellsprout extends Pokemon {
     
     public static void main(String[] args) {
         Bellsprout pkn = new Bellsprout();
-        System.out.println(pkn._level);
+        System.out.println(pkn);
         
     }
     
