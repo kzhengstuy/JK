@@ -13,7 +13,7 @@ public class Abra extends Pokemon {
     
     public static void main(String[] args) {
         Abra pkn = new Abra();
-        System.out.println(pkn._level);
+        System.out.println(pkn);
         
     }
     
