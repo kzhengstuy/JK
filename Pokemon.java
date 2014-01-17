@@ -33,12 +33,7 @@ public abstract class Pokemon {
 
 
     
-    public abstract void move1();
-    public abstract void move2();
-    public abstract void move3();
-    public abstract void move4();
-    
-					
+    	
     
     
 }
