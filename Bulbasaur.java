@@ -2,7 +2,6 @@
 
 
 
-
 public class Bulbasaur extends Pokemon{
     
 
@@ -18,7 +17,7 @@ public class Bulbasaur extends Pokemon{
     
     public static void main(String[] args) {
 	Bulbasaur pkn = new Bulbasaur();
-	System.out.println(pkn._level);
+	System.out.println(pkn);
 	
     }
     
