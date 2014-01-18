@@ -1,18 +1,18 @@
-public class Bulbasaur extends Pokemon {
+public class Charmander extends Pokemon {
     
 
 
-    public Bulbasaur(){
+    public Charmander(){
 
-        super("Bulbasaur");
-        _type = "Grass/Poison";
+        super("Charmander");
+        _type = "Fire";
 
     }
 
     
     
     public static void main(String[] args) {
-        Bulbasaur pkn = new Bulbasaur();
+        Charmander pkn = new Charmander();
         System.out.println(pkn._level);
         
     }

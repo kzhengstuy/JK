@@ -20,18 +20,19 @@ public abstract class Pokemon {
 
 
     public Pokemon(String name){
-	_name = name;
-	_hp = _level *10;
-	_atk = _level + 10;
-	_def = _level + 10;
-	_spA = _level + 10;
-	_spD = _level + 10;
-	_spd = _level + 10;
-	_maxHP = _hp;
-	_isFainted = false;
+        _name = name;
+        _hp = _level *10;
+        _atk = _level + 10;
+        _def = _level + 10;
+        _spA = _level + 10;
+        _spD = _level + 10;
+        _spd = _level + 10;
+        _maxHP = _hp;
+        _isFainted = false;
     }
 
     public String toString(){
+
 	String retStr = " ";
 	retStr += "Name:" + _name + "\n";
 	retStr += "HP:" + _hp + "\n";
@@ -42,6 +43,8 @@ public abstract class Pokemon {
         retStr += "Speed:" + _spd + "\n";
 	return retStr;
 	
+
     }
+}
 
    

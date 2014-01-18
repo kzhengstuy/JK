@@ -1,4 +1,4 @@
-/file for the Gym Leaders
+//file for the Gym Leaders
 //basically, brock, misty, etc.
 
 

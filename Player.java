@@ -17,7 +17,19 @@ public class Player extends Trainer{
 
 
 
-    //will have to make player a method for picking the first pokemon
+    //acessor methods
 
+
+    public String getName(){
+	return _name;
+    }
+
+    public int getBadges(){
+	return _numBadges;
+    }
+
+    public double getMoney(){
+	return _moneys;
+    }
 
 }
