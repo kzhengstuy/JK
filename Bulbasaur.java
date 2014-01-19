@@ -15,12 +15,12 @@ public class Bulbasaur extends Pokemon{
 
     
     
-    /*    public static void main(String[] args) {
+    public static void main(String[] args) {
 	Bulbasaur pkn = new Bulbasaur();
 	System.out.println(pkn);
 	
     }
-    */   
+      
 
    
 }
