@@ -58,9 +58,28 @@ public class Player extends Trainer{
 
     public static void main(String[] args){
 	Player bob = new Player("Bob");
-	Pokemon poke = new Bulbasaur();
-	bob.addPokemon(poke);
-
+    
+    try {
+    	System.out.println( "Pick your Pokemon!" );
+    	System.out.println( "\t1: Bulbasaur \n\t2: Charmander \n\t3: Squirtle" );
+    	i = Integer.parseInt( in.readLine() );
+    }	
+    catch ( IOException e ) { }
+    
+    if ( i == 1 ) {
+    	addPokemon("Bulbasaur")
     }
+    
+    else if (i == 2) {
+    	addPokemon("Charmander")
+    }
+    
+    else { 
+    	addPokemon("Squirtle")
+    	
+    }
+    	
+    
+    
 
 }
