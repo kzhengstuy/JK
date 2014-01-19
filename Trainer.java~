@@ -8,7 +8,7 @@ public class Trainer{
     int _moneys;
     String _name;
     
-    ArrayList<Pokemon> _pokemons;
+    ArrayList<String> _pokemons;
 
 
 

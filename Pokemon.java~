@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public  class Pokemon {
+public abstract class Pokemon {
 
     int _level = 1;
     int _hp;
