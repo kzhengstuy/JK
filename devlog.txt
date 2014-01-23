@@ -1,0 +1,54 @@
+The developers' log!!
+
+The Log:
+
+
+Day 1: 2014-01-13
+
+Start of the work.
+Kenny and Jim begin making the bajillions of files needed for the Pokemon Adventure Simulator.They all are hollow.
+
+
+Day 2: 2014-01-14
+
+Jim's machine at school isn't working. Kenny makes hollow files for each of the individual Pokemon, with Jim backseat coding, occasionally hopping to the wheel to pilot the computer.
+
+
+Day 3: 2014-01-15
+
+Jim makes the generic trainer class and some hollow trainer subclasses.
+Kenny makes more Pokemon shells.
+
+
+Day 4: 2014-01-16
+
+Jim finishes some generic trainer class files! For the most part... For a while...
+Kenny makes even MORE Pokemon (because we need so many) and prompts Jim to make the driver file; Kenny makes an empty shell for the driver
+
+
+Day 5: 2014-01-17
+
+Jim works on driver file "PAS.java"
+Kenny takes the backseat
+
+
+Day 6: 2014-01-21
+
+Jim has encountered a problem: letting the player pick his first Pokemon! NullPointerException is the problem; it's in Player.java.
+Kenny, as a result, rolls on over to Player.java to figure out what's wrong.
+Jim tries to make it work from withing PAS.java
+
+
+Day 7: 2014-01-22
+
+Kenny has an idea for a solution. He runs Player.java and makes it work, but convoluted-ness makes it not work in PAS.java, where it should be.
+Jim backseats. Begins writing devlog.
+
+
+Day 8: 2014-01-23
+
+Kenny is out sick while Jim works in class on PAS.java.
+Kenny's version of PAS.java and Player.java are lost!! Hopefully not for good.
+Jim has made progress: you can now add your Pokemon and stuff, but the Pokemon shows up as null.
+
+

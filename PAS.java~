@@ -3,14 +3,11 @@
 
 
 import cs1.Keyboard;
-import java.io.*;
-import java.util.*;
+
 import java.util.ArrayList;
 public class PAS{
     //generic player
     static Player player;
-    private InputStreamReader isr;
-    private BufferedReader in;
 
 
     public static void beginning(){
@@ -28,29 +25,15 @@ public class PAS{
 	}
 
     }
-    public static void addPokemon(Pokemon pkn){// adding a pokemon to the party
-	
-	player._pokemons.add(pkn);
-	
-    }
-
-
-    public  static ArrayList<Pokemon> getPokemons(){
-	return player._pokemons;
-    }
 
     public static void pick(){//picking the first pokemon
 	System.out.println("You have three choices to pick from:\n1)Bulbasaur\t2)Charmander\t3)Squirtle\nDon't be shy! Pick one! [1/2/3]");
 	String choice = Keyboard.readString();
-	Pokemon select;
-	if( choice.equals(1)){
-	    select = new Bulbasaur();
-	    addPokemon((Pokemon)select);
-	    System.out.print(select);
+	if( choice.equals("1")){
+	    player.addPokemon(new Bulbasaur());
 	    }
 	System.out.println("So this is okay?");
-
-	System.out.println(player);
+	System.out.println(player.getPokemons());
 
     }
 
