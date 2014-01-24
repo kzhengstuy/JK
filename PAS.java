@@ -58,9 +58,13 @@ public class PAS{
 	    addPokemon(select);
 	    // System.out.print(select);
 	}
-	System.out.println("So this is okay?");
+	System.out.println("So this is okay?[Y/N]");
 
 	System.out.println(getPokemons()); 
+
+	if (Keyboard.readString().equals("N")){
+	    pick();
+	}
 	
     }
 
@@ -69,6 +73,43 @@ public class PAS{
 	    pick();
 	    
 	}
+
+
+    public static void heal(){
+	
+	    for(Pokemon p: player._pokemons){
+		p._hp = p._maxHP;
+	
+	    }
+	    System.out.println("Your Pokemon have all been healed!");
+	
+	
+    }
+
+
+
+
+    public static void battle(){
+
+
+
+
+    }
+
+
+    public static void run(){
+	while(true){
+	    System.out.println("1)Heal Pokemon\t2)Battle Trainers");
+	    String choice = Keyboard.readString();
+	    if (choice.equals(1)){
+		heal();
+	    }
+	    if (choice.equals(2)){
+		battle();
+	    }
+	}
+
+    }
 
 
 	public static void main(String[]args){
@@ -85,7 +126,9 @@ public class PAS{
 	
 	beginning();
 	
+	System.out.println("Welp, time to play, I guess. What would you like to do?");
 	
+	run();
 	    
 	}
 	

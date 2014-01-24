@@ -50,5 +50,8 @@ Day 8: 2014-01-23
 Kenny is out sick while Jim works in class on PAS.java.
 Kenny's version of PAS.java and Player.java are lost!! Hopefully not for good.
 Jim has made progress: you can now add your Pokemon and stuff, but the Pokemon shows up as null.
+Begin making battling and healing functionality, but it doesn't work because it requires a Pokemon to exist.
+Functionality for battling taken over by Kenny.
+
 
 
