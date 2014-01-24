@@ -21,7 +21,7 @@ public  class Pokemon {
 
     public Pokemon(String name){
         _name = name;
-        _hp = _level *10;
+        _hp = _level*10 + 10;
         _atk = _level + 10;
         _def = _level + 10;
         _spA = _level + 10;
@@ -33,7 +33,7 @@ public  class Pokemon {
 
     public String toString(){
 
-	String retStr = " ";
+	String retStr = "";
 	retStr += "Name:" + _name + "\n";
 	retStr += "HP:" + _hp + "\n";
 	retStr += "Attack:" + _atk + "\n";

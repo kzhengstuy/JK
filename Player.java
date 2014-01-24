@@ -3,15 +3,11 @@
 
 
 import java.util.ArrayList;
-<<<<<<< HEAD
+
 import cs1.Keyboard;
 import java.io.*;
 import java.util.*;
-=======
-import java.io.*;
-import java.util.*;
-import cs1.Keyboard;
->>>>>>> 4431db4da6ad02d3c102f68d2346f689bf06a45e
+
 
 public class Player extends Trainer{
     /* private InputStreamReader isr;
@@ -61,11 +57,7 @@ public class Player extends Trainer{
 	
 	_pokemons.add(pkn);
 	
-<<<<<<< HEAD
-=======
-	_pokemons.add(pkn);
-	return pkn;
->>>>>>> 4431db4da6ad02d3c102f68d2346f689bf06a45e
+
     }
     public String toString(){
 
@@ -119,25 +111,6 @@ public class Player extends Trainer{
     
     
     }*/
-=======
-	    Bulbasaur b = new Bulbasaur();
-	    bob.addPokemon(b);
-	}
-    
-	else if (i == 2) {
-	    Charmander c = new Charmander();
-	    bob.addPokemon(c);
-	}
-    
-	else { 
-	    Squirtle s = new Squirtle();
-	    bob.addPokemon(s);
-    	
-	}
-    
-    }
-    
-    
->>>>>>> 4431db4da6ad02d3c102f68d2346f689bf06a45e
+
 }
 

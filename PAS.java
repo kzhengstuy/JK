@@ -45,13 +45,23 @@ public class PAS{
 	Pokemon select;
 	if( choice.equals(1)){
 	    select = new Bulbasaur();
-	    addPokemon((Pokemon)select);
-	    System.out.print(select);
-	    }
+	    addPokemon(select);
+	    // System.out.println(select);
+	}
+		else if (choice.equals(2)){
+	    select = new Bulbasaur();
+	    addPokemon(select);
+	    // System.out.print(select);
+	}
+	else if (choice.equals(3)){
+	    select = new Bulbasaur();
+	    addPokemon(select);
+	    // System.out.print(select);
+	}
 	System.out.println("So this is okay?");
 
-	System.out.println(player);
-
+	System.out.println(getPokemons()); 
+	
     }
 
 	public static void play(){
