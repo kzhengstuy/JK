@@ -29,7 +29,7 @@ Kenny makes even MORE Pokemon (because we need so many) and prompts Jim to make 
 Day 5: 2014-01-17
 
 Jim works on driver file "PAS.java"
-Kenny takes the backseat
+Kenny takes the backseat but works on the other file, "Trainer.java"
 
 
 Day 6: 2014-01-21
@@ -48,10 +48,10 @@ Jim backseats. Begins writing devlog.
 Day 8: 2014-01-23
 
 Kenny is out sick while Jim works in class on PAS.java.
-Kenny's version of PAS.java and Player.java are lost!! Hopefully not for good.
+Kenny's version of PAS.java and Player.java are not on GitHub, but rather on his shell at home.
 Jim has made progress: you can now add your Pokemon and stuff, but the Pokemon shows up as null.
 Begin making battling and healing functionality, but it doesn't work because it requires a Pokemon to exist.
 Functionality for battling taken over by Kenny.
-
+Kenny has fixed the Pokemon issue for now and it shows up as an empty array list.
 
 
