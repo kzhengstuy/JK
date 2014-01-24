@@ -53,5 +53,6 @@ Jim has made progress: you can now add your Pokemon and stuff, but the Pokemon s
 Begin making battling and healing functionality, but it doesn't work because it requires a Pokemon to exist.
 Functionality for battling taken over by Kenny.
 Kenny has fixed the Pokemon issue for now and it shows up as an empty array list.
-
+The project has failed. Too many unresolved issues. 
+Hopefully an extension is in our near future.
 
